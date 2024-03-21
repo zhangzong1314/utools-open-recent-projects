@@ -1,0 +1,60 @@
+{
+  "pluginName"   : "打开最近项目",
+  "description"  : "打开最近项目",
+  "version"      : "1.0.0",
+  "logo"         : "./img/logo.png",
+  "preload"      : "preload.js",
+  "pluginSetting": {
+    "single": true
+  },
+  "features"     : [
+    {
+      "code"   : "setting",
+      "explain": "设置界面",
+      "cmds"   : [
+        "Setting",
+        "设置"
+      ]
+    },
+    {
+      "code"   : "pycharm",
+      "explain": "打开pycharm最近项目",
+      "cmds"   : [
+        "pycharm",
+        "py"
+      ]
+    },
+    {
+      "code"   : "goland",
+      "explain": "打开goland最近项目",
+      "cmds"   : [
+        "goland",
+        "go"
+      ]
+    },
+    {
+      "code"   : "Chrome",
+      "explain": "打开谷歌浏览器书签列表",
+      "cmds"   : [
+        "Chrome",
+        "谷歌书签"
+      ]
+    },
+    {
+      "code"   : "Code",
+      "explain": "打开vscode最近项目",
+      "cmds"   : [
+        "vsc",
+        "vscode"
+      ]
+    },
+    {
+      "code"   : "VS",
+      "explain": "打开Visual Studio最近项目",
+      "cmds"   : [
+        "VS",
+        "Visual Studio"
+      ]
+    }
+  ]
+}
